@@ -3,6 +3,15 @@
 ## Project Overview
 Deployed a static website using NGINX on AWS EC2 as part of the HNG Internship DevOps track. The website includes HTML, CSS, and JavaScript components showcasing my skills, along with personal information such as Name, username, and email. The project meets all specified requirements, including successful deployment on a AWS and correct configuration of NGINX to serve website content.
 
+## Delpoyed Website
+![Screenshot 2024-06-27 143424](https://github.com/Ann-Anidumaka/Static-Website-Deployment-HNG-0-/assets/132375232/bf4b4750-67a9-48e8-a8f5-089751cc5f08)
+
+## Notable Screens
+
+![Screenshot 2024-06-27 144539](https://github.com/Ann-Anidumaka/Static-Website-Deployment-HNG-0-/assets/132375232/0599e079-d2f8-477b-b484-77481a6d427c)
+
+![Screenshot 2024-06-27 144724](https://github.com/Ann-Anidumaka/Static-Website-Deployment-HNG-0-/assets/132375232/655b492a-4e94-4dda-83ba-03ac43a156dd)
+
 ### Features
 
 - Responsive design using Bootstrap
@@ -74,7 +83,7 @@ To deploy this website:
    ```bash
    sudo vim /etc/nginx/conf.d/default.conf
 
-2. **replace thr contents with**:
+2. **replace the contents with**:
    ```bash
    server {
     listen 80;
@@ -94,10 +103,6 @@ To deploy this website:
    sudo systemctl restart nginx
 
 
-
-
-   
 ### Technologies Used
-
 - NGINX
 - AWS EC2
